@@ -1,0 +1,105 @@
+body {
+  background-color: #F7D330;
+  margin: 0;
+  font-family: 'Montserrat';
+}
+
+h2{
+  font-size: 15vw;
+  margin-block-end: 0;
+  margin-block-start: 0;
+  color: white;
+}
+
+h3{
+  font-size: 10vw;
+  margin-block-end: 0;
+  margin-block-start: 0;
+  color: white;
+}
+
+h4{
+  font-size: 5vw;
+  margin-block-end: 0;
+  margin-block-start: 0;
+  color: white;
+}
+
+.grid {
+  display: grid;
+  grid-template: 100% / 1fr 1fr 1fr;
+  grid-column-gap: 10px;
+  color: white;
+}
+
+.meteo {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  border-radius: 20%;
+  box-shadow: 5px 5px 25px 0px rgba(0,0,0,0.5);
+  -webkit-box-shadow: 5px 5px 25px 0px rgba(0,0,0,0.5);
+  -moz-box-shadow: 5px 5px 25px 0px rgba(0,0,0,0.5);
+  -o-box-shadow: 5px 5px 25px 0px rgba(0,0,0,0.5);
+  -ms-box-shadow: 5px 5px 25px 0px rgba(0,0,0,0.5);
+  box-shadow: 5px 5px 25px 0px rgba(0,0,0,0.5);
+}
+
+.grid_80 {
+  display: grid;
+  grid-template: 1fr / 1fr 80% 1fr;
+  grid-column-gap: 5px;
+}
+
+.grid_15 {
+  display: grid;
+  grid-template: 1fr / 1fr 15% 1fr;
+  grid-column-gap: 10px;
+}
+
+.grid_5c {
+  display: grid;
+  grid-template: 1fr / 1fr 1fr 1fr 1fr 1fr;
+  grid-column-gap: 10px;
+}
+
+.centro {
+  text-align: center;
+  align-items: center;
+}
+
+.dimensioni {
+  width: 100%;
+  height: auto;
+}
+
+.scrollx {
+  margin-top: 5%;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  -webkit-overflow-scrolling: touch;
+  -moz-overflow-scrolling: touch;
+  -o-overflow-scrolling: touch;
+  -ms-overflow-scrolling: touch;
+  overflow-scrolling: touch;
+  width: 100%;
+  white-space: nowrap;
+  background: #A38A00;
+  margin-bottom: 10%;
+}
+
+.card{
+  display: inline-block;
+  width: 35%;
+  height: auto;
+  background:#A38A00;
+}
+
+.dimensioni_card {
+  width: 100%;
+  height: auto;
+}
+
+.arco {
+  grid-column-start: 2;
+  grid-column-end: 3;
+}

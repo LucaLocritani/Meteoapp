@@ -1,0 +1,51 @@
+@media screen and (max-width: 500px) {
+  .sidenav {
+    padding-top: 10%;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .sidenav {
+    padding-top: 12%;
+  }
+  .sidenav a{
+    font-size: 7vw;
+  }
+}
+
+@media screen and (max-width: 250px) {
+  .sidenav {
+    padding-top: 18%;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .x {
+    width: 40%;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .x {
+    width: 50%;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .x {
+    width: 60%;
+  }
+}
+
+@media screen and (min-width: 1500px) {
+  .x {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .navbar_element {
+    width: 40%;
+    height: auto;
+  }
+}

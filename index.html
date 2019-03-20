@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>App Meteo</title>
+  <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="bar.css">
+  <link rel="stylesheet" href="mediaqueries.css">
+</head>
+
+<body>
+  <div id="mySidenav" class="sidenav">
+    <span href="javascript:void(0)" class="closebtn" onclick="closeNav()"><img src="immagini/x.svg" class="x"></span>
+    <a href="#">Attività</a>
+    <a href="#">Luoghi Preferiti</a>
+    <a href="settimana.html">Settimana</a>
+    <a href="#">Notizie</a>
+    <a href="#">Oroscopo</a>
+    <a href="#">Chat</a>
+    <a href="#">Fasi Lunari</a>
+  </div>
+  <div id="main">
+    <div class="navbar">
+      <div class="grid_5c centro">
+        <a href="profilo.html"><img src="immagini/profilo.svg" class="navbar_element"></img></a>
+        <a><img src="immagini/home.svg" class="navbar_element"></img></a>
+        <h4>Home</h4>
+        <a href="impostazioni.html"><img src="immagini/impostazioni.svg" class="navbar_element"></img></a>
+        <a onclick="openNav()"><img src="immagini/menù.svg" class="navbar_element"></img></a>
+      </div>
+    </div>
+    <div class="grid centro">
+      <h4 id="giorno"></h4>
+      <h3 id="currentCity"></h3>
+      <h4 id="date"></h4>
+    </div>
+
+    <!--  <input id="cityInput" type="text" value="Rome"></input>
+    <button onclick="update()">Aggiorna</button>
+    <h2 id="testo" class="centro bianco"></h2> -->
+
+    <h2 class="centro" id="tempCity"></h2>
+
+    <div class="grid_80 centro">
+      <img id="icon" class="meteo dimensioni" alt="meteo_corrente">
+    </div>
+
+    <!--  <div class="grid_15 centro">
+    <img src="Immagini/Freccia.svg" class="item dimensioni" alt="Indicatore"></img>
+  </div> -->
+
+  <div class="scrollx">
+    <div class="card"><img src="immagini/08_00.svg" class="dimensioni_card" alt="08_00"></img></div>
+    <div class="card"><img src="immagini/08_00.svg" class="dimensioni_card" alt="08_00"></div>
+    <div class="card"><img src="immagini/08_00.svg" class="dimensioni_card" alt="08_00"></div>
+    <div class="card"><img src="immagini/08_00.svg" class="dimensioni_card" alt="08_00"></div>
+    <div class="card"><img src="immagini/08_00.svg" class="dimensioni_card" alt="08_00"></div>
+    <div class="card"><img src="immagini/08_00.svg" class="dimensioni_card" alt="08_00"></div>
+    <div class="card"><img src="immagini/08_00.svg" class="dimensioni_card" alt="08_00"></div>
+  </div>
+
+  <div class="grid_80 centro">
+    <img src="immagini/arco.svg" class="arco dimensioni" alt="arco_solare"></img>
+  </div>
+
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="script.js" type="text/javascript"></script>
+  <script src="callmeteo.js" type="text/javascript"></script>
+</body>
+
+
+</html>

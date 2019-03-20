@@ -1,0 +1,67 @@
+.navbar_element {
+  width: 25%;
+  height: auto;
+}
+
+.navbar {
+  width: 100%;
+  background-color: #D1B000;
+  top: 0;
+}
+
+/* Navbar links */
+.navbar a {
+  color: white;
+  font-size: 25px;
+}
+
+/* Navbar links on mouse-over */
+.navbar a:hover {
+  background-color: #FFED8A;
+}
+
+/* Current/active navbar link */
+.active {
+  background-color: #000000;
+}
+
+.sidenav {
+  box-sizing: border-box;
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: #D1B000;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 7%;
+}
+
+.sidenav a {
+  padding: 5%;
+  font-size: 5vw;
+  text-decoration: none;
+  color: #ffffff;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #FFED8A;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 1%;
+  font-size: 36px;
+}
+
+#main {
+  transition: margin-left .5s;
+}
+
+.x {
+ width: 30%;
+}
