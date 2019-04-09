@@ -49,3 +49,9 @@
     height: auto;
   }
 }
+
+@media screen and (min-width: 400px) {
+.grid{
+  padding-top: 8%;
+}
+}

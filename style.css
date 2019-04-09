@@ -30,6 +30,7 @@ h4{
   grid-template: 100% / 1fr 1fr 1fr;
   grid-column-gap: 10px;
   color: white;
+  padding-top: 11%;
 }
 
 .meteo {
@@ -60,6 +61,7 @@ h4{
   display: grid;
   grid-template: 1fr / 1fr 1fr 1fr 1fr 1fr;
   grid-column-gap: 10px;
+  padding-top: 1%;
 }
 
 .centro {
@@ -102,4 +104,11 @@ h4{
 .arco {
   grid-column-start: 2;
   grid-column-end: 3;
+  position: absolute;
+}
+
+.sole{
+  grid-column-start: 2;
+  grid-column-end: 3;
+  position: absolute;
 }

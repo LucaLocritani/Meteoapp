@@ -1,0 +1,12 @@
+@-webkit-keyframes rotate{
+  from{
+    transform: rotate(-90deg);
+  }
+  to{
+    transform: rotate(90deg);
+  }
+}
+
+#rotate{
+  -webkit-animation: rotate 2s ease-in-out infinite alternate;
+}
